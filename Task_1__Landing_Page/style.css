@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Lora', serif;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft {
+    width: 50%;
+
+    padding: 12px 0;
+
+}
+
+.topright {
+
+    width: 50%;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.section1 {
+    max-height: 100vh;
+    ;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+}
+
+.dumbellimg {
+    width: 289px;
+}
+
+.topright.gymimg {
+    width: 466px;
+}
+
+.section2 {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.box {
+    padding: 18px 0;
+    margin: 12px 22px;
+    min-width: 13vw;
+    border: 4px solid rgb(160, 13, 141);
+    text-align: center;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.highlighted {
+    font-size: 1.5 rem;
+    font-weight: bolder
+}
+
+.box h2 {
+    padding: 19px 0;
+}
+footer{
+    padding: 24px;
+}
+
+
+
+
+.footer {
+    background-color: #0f6da7;
+    color: #05221e;
+    padding: 40px 50px;
+  }
+  
+  .container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo img {
+    width: 150px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ff6f61;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #ff6f61;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+  }
+  
